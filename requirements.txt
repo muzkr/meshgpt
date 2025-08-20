@@ -1,0 +1,18 @@
+
+# Nvidia Jetson machines: use index url
+# https://pypi.jetson-ai-lab.io/jp6/cu126/+simple/
+
+numpy < 2.0
+torch == 2.8.*
+transformers == 4.41.2
+accelerate  == 0.31.0
+# triton
+
+# Optional
+huggingface_hub
+
+# meshtastic
+meshtastic[cli]
+pubsub 
+# requests 
+# pytz
